@@ -21,3 +21,18 @@ the main file handles all the execute along with fast API.
 
 The application runs on port 8005.
 
+
+Docker Image for this integration
+docker pull ghcr.io/askitlouder/image_db_work_ch2/db_image_app_data:1.0
+
+Steps - 
+Pull the docker image and run
+
+docker run -p 8005:8005 docker.pkg.github.com/askitlouder/image_db_work_ch2/db_image_app_data:1.0
+
+For this image, the port must be 8005
+
+Important points - 
+Ensure that Docker is installed on your machine.
+If you are running on Windows or macOS, make sure your Docker Desktop is running.
+The above commands with Dockerfile has configured the container to expose a service on port 8005.
