@@ -24,6 +24,10 @@ The application runs on port 8005.
 
 Docker Image for this integration
 docker pull ghcr.io/askitlouder/image_db_work_ch2/db_image_app_data:1.0
+ or 
+ go to
+ https://github.com/users/askitlouder/packages/container/package/image_db_work_ch2%2Fdb_image_app_data
+then you got the link on this page 
 
 Steps - 
 Pull the docker image and run
