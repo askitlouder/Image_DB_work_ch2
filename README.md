@@ -19,6 +19,11 @@ Here, dependencies are available in requirement.txt.
 Within each module of code handle separate working.
 the main file handles all the execute along with fast API.
 
+open terminal and run uvicorn run main:app --host:0.0.0.0 --port:8005(set port as per need)
+
+once the application starts running, open the browser, http://localhost:8005/docs [port, set as per your need] once open, then drag the available function and click on try it out then click on execute. Image will save on workingdir
+
+
 The application runs on port 8005.
 
 
